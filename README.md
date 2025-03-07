@@ -26,16 +26,7 @@ Un **archivo** es un conjunto de datos almacenados en el sistema de archivos. Pu
 ### 8. **Permisos**
 Los **permisos** controlan quién puede leer, escribir o ejecutar un archivo. Los permisos se dividen en tres categorías: **usuario** (dueño del archivo), **grupo** (grupo de usuarios), y **otros** (todos los demás).
 
-### 9. **Proceso**
-Un **proceso** es una instancia de un programa en ejecución. Cada proceso tiene un identificador único (PID) y puede ser gestionado mediante comandos como `ps`, `top`, o `kill`.
-
-### 10. **Redirección y Tuberías (Pipes)**
-La **redirección** permite enviar la salida de un comando a un archivo o a otro comando. Las **tuberías** (`|`) permiten enviar la salida de un comando como entrada a otro comando.
-
-### 11. **Variables de Entorno**
-Las **variables de entorno** son valores dinámicos que afectan el comportamiento de los procesos y comandos en el sistema. Por ejemplo, la variable `PATH` contiene una lista de directorios donde el sistema busca los comandos ejecutables.
-
-### 12. **Script**
+### 9. **Script**
 Un **script** es un archivo que contiene una serie de comandos que se ejecutan secuencialmente. Los scripts son útiles para automatizar tareas repetitivas.
 
 ---
@@ -50,7 +41,6 @@ Un **script** es un archivo que contiene una serie de comandos que se ejecutan s
 | `ls` | Lista archivos y directorios en el directorio actual. |
 | `ls -a` | Lista archivos, incluyendo los ocultos. |
 | `ls -l` | Lista archivos con detalles (permisos, propietario, tamaño, fecha). |
-| `ls -lh` | Muestra la lista en formato legible para humanos. |
 | `cd <ruta>` | Cambia al directorio especificado. |
 | `cd ..` | Retrocede un nivel en la jerarquía de directorios. |
 | `cd /` | Va al directorio raíz. |
@@ -71,7 +61,6 @@ Un **script** es un archivo que contiene una serie de comandos que se ejecutan s
 | `cp -r <origen> <destino>` | Copia un directorio de forma recursiva. |
 | `mv <origen> <destino>` | Mueve o renombra archivos y directorios. |
 | `cat <archivo>` | Muestra el contenido de un archivo. |
-| `less <archivo>` | Permite visualizar archivos grandes página por página. |
 
 ---
 
